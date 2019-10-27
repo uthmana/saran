@@ -1,0 +1,57 @@
+/* ===========================
+   ====== Medua Query for Search Box ====== 
+   =========================== */
+
+@media only screen and (max-width: 600px) {
+    .logo img {
+        max-width: 60%;
+    }
+    .fas-width {
+        font-size: 15px;
+    }
+    .notification-items {
+        position: absolute;
+        top: -13px;
+        left: 5px;
+        padding: .30rem;
+        background-color: red;
+        font-size: 8px;
+    }
+    .search-result {
+        padding-bottom: 76px;
+        overflow-y: auto;
+        height: 75vh;
+    }
+    .hero-text {
+        position: absolute;
+        top: 83px;
+        left: 30px;
+        width: 52%;
+    }
+    .hero-title {
+        font-size: 1rem;
+    }
+    .hero-paragraph {
+        font-size: .61rem;
+        margin-top: 10px;
+    }
+    .owl-theme .owl-dots {
+        position: absolute;
+        top: 134px;
+        left: 28px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 19px;
+        height: 2px;
+        margin: 5px 4px;
+    }
+    .form-wrap {
+        width: 95%;
+    }
+    .live-upcoming-matches {
+        padding: 1rem .3rem;
+    }
+    .live-matches-slider {
+        overflow: auto;
+    }
+}
